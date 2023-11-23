@@ -1,0 +1,20 @@
+{
+  "color": {
+    "blue-500": {
+      "value": "#006fdeff",
+      "type": "color"
+    },
+    "light-500": {
+      "value": "#f6f7f8ff",
+      "type": "color"
+    },
+    "color-background-primary-main-enabled": {
+      "value": "{color.blue-500.value}",
+      "type": "color"
+    },
+    "color-bakground-light-subtle-enabled": {
+      "value": "{color.light-500.value}",
+      "type": "color"
+    }
+  }
+}
