@@ -1,0 +1,1186 @@
+{
+  "color": {
+    "text": {
+      "bold": {
+        "value": "{palette.neutral.800}",
+        "type": "color",
+        "description": "Use for important text such as headers, titles and important information",
+        "parent": "sys/Light"
+      },
+      "new": {
+        "default": {
+          "value": "{palette.purple.600}",
+          "type": "color",
+          "description": "Use for text to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.purple.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.purple.400}",
+          "type": "color",
+          "description": "Use for text that require subtle emphasis to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "subtlest": {
+        "value": "{palette.neutral.300}",
+        "type": "color",
+        "description": "Use for secondary text such as description, navigation, subtle button links, input field labels, and all caps subheadings.",
+        "parent": "sys/Light"
+      },
+      "default": {
+        "value": "{palette.neutral.700}",
+        "type": "color",
+        "description": "Use for normal text such as body copy, paragraph and neutral buttons.",
+        "parent": "sys/Light"
+      },
+      "inverse": {
+        "value": "{palette.neutral.0}",
+        "type": "color",
+        "description": "Use for text that require a lighter color to ensure visibility and contrast on bold backgrounds",
+        "parent": "sys/Light"
+      },
+      "disabled": {
+        "value": "{palette.neutral.400A}",
+        "type": "color",
+        "description": "Use for text in a disabled or inactive state of the element",
+        "parent": "sys/Light"
+      },
+      "info": {
+        "default": {
+          "value": "{palette.light-blue.600}",
+          "type": "color",
+          "description": "Use for text to provide extra information, explanations, or context for users, such as links or numerical data",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.light-blue.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.light-blue.400}",
+          "type": "color",
+          "description": "Use for text that require subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
+          "parent": "sys/Light"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{palette.green.600}",
+          "type": "color",
+          "description": "Use for text to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.green.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        }
+      },
+      "brand": {
+        "default": {
+          "value": "{palette.blue.600}",
+          "type": "color",
+          "description": "Use for text within primary components with a subtle background hue",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.blue.800}",
+          "type": "color",
+          "description": "Use for text to indicate important brand-related information such as product names, slogans, or key messaging.",
+          "parent": "sys/Light"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{palette.red.600}",
+          "type": "color",
+          "description": "Use for text to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.red.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{palette.orange.600}",
+          "type": "color",
+          "description": "Use for text to indicate caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.orange.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to indicate caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.orange.400}",
+          "type": "color",
+          "description": "Use for text that require subtle emphasis to indicate caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "update": {
+        "default": {
+          "value": "{palette.yellow.600}",
+          "type": "color",
+          "description": "Use for text to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        },
+        "bold": {
+          "value": "{palette.yellow.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.yellow.400}",
+          "type": "color",
+          "description": "Use for text that require subtle emphasis to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        }
+      },
+      "link": {
+        "enabled": {
+          "value": "{palette.light-blue.600}",
+          "type": "color",
+          "description": "Use for link in enabled state",
+          "parent": "sys/Light"
+        },
+        "visited": {
+          "value": "{palette.purple.700}",
+          "type": "color",
+          "description": "Use for link in visited state",
+          "parent": "sys/Light"
+        }
+      },
+      "subtle": {
+        "value": "{palette.neutral.500}",
+        "type": "color",
+        "description": "Use for tertiary text such as meta-data, breadcrumbs, input field placeholder and helper text.",
+        "parent": "sys/Light"
+      },
+      "accent-pink": {
+        "bold": {
+          "value": "{palette.pink.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as hover state of tag components",
+          "parent": "sys/Light"
+        },
+        "default": {
+          "value": "{palette.pink.600}",
+          "type": "color",
+          "description": "Use for text on subtlest pink accent backgrounds when there is no meaning tied to the color such as tag components",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.pink.400}",
+          "type": "color",
+          "description": "Use for text that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as disabled state of tag components",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-aqua": {
+        "bold": {
+          "value": "{palette.aqua.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "default": {
+          "value": "{palette.aqua.600}",
+          "type": "color",
+          "description": "Use for text on subtlest aqua accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.aqua.400}",
+          "type": "color",
+          "description": "Use for text that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-mint": {
+        "bold": {
+          "value": "{palette.mint.800}",
+          "type": "color",
+          "description": "Use for text that require bold emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "default": {
+          "value": "{palette.mint.600}",
+          "type": "color",
+          "description": "Use for text on subtlest mint accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.mint.400}",
+          "type": "color",
+          "description": "Use for text that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{palette.neutral.600}",
+        "type": "color",
+        "description": "Use for icon placed on neutral subtle, or colorless background components, such as icon-only buttons or icons within chips.",
+        "parent": "sys/Light"
+      },
+      "subtle": {
+        "value": "{palette.neutral.500}",
+        "type": "color",
+        "description": "Use for icon that require a subtle emphasis to place on neutral subtle, or colorless background components such as icon-only buttons or icons within chips.",
+        "parent": "sys/Light"
+      },
+      "inverse": {
+        "value": "{palette.neutral.0}",
+        "type": "color",
+        "description": "Use for icon that require a lighter color to ensure visibility and contrast on bold backgrounds",
+        "parent": "sys/Light"
+      },
+      "disabled": {
+        "value": "{palette.neutral.400A}",
+        "type": "color",
+        "description": "Use for icon in a disabled or inactive state",
+        "parent": "sys/Light"
+      },
+      "bold": {
+        "value": "{palette.neutral.800}",
+        "type": "color",
+        "description": "Use for icon that require bold emphasis such as headers, titles and important information",
+        "parent": "sys/Light"
+      },
+      "brand": {
+        "default": {
+          "value": "{palette.blue.600}",
+          "type": "color",
+          "description": "Use for icon within primary components with a subtle background hue",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.blue.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to indicate important brand-related information",
+          "parent": "sys/Light"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{palette.red.600}",
+          "type": "color",
+          "description": "Use for icon to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.red.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{palette.orange.600}",
+          "type": "color",
+          "description": "Use for icon to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.orange.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{palette.green.600}",
+          "type": "color",
+          "description": "Use for icon to provide extra information, explanations, or context for users, such as links or numerical data",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.green.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
+          "parent": "sys/Light"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{palette.light-blue.600}",
+          "type": "color",
+          "description": "Use for icon to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.light-blue.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "new": {
+        "default": {
+          "value": "{palette.purple.600}",
+          "type": "color",
+          "description": "Use for icon to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.purple.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "update": {
+        "default": {
+          "value": "{palette.yellow.600}",
+          "type": "color",
+          "description": "Use for icon to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.yellow.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-pink": {
+        "default": {
+          "value": "{palette.pink.600}",
+          "type": "color",
+          "description": "Use for icon on subtlest pink accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.pink.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-aqua": {
+        "default": {
+          "value": "{palette.aqua.600}",
+          "type": "color",
+          "description": "Use for icon on subtlest aqua accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.aqua.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-mint": {
+        "default": {
+          "value": "{palette.mint.600}",
+          "type": "color",
+          "description": "Use for icon on subtlest mint accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.mint.400}",
+          "type": "color",
+          "description": "Use for icon that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "{palette.neutral.50}",
+        "type": "color",
+        "description": "Use for default background of large UI interfaces such as main background of whole page",
+        "parent": "sys/Light"
+      },
+      "inverse": {
+        "value": "{palette.neutral.0}",
+        "type": "color",
+        "description": "Use for background that require a lighter color to ensure visibility and contrast against dark or colored foreground elements.",
+        "parent": "sys/Light"
+      },
+      "brand": {
+        "enabled": {
+          "value": "{palette.blue.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element to indicate primary actions or features such as background of main CTA buttons",
+          "parent": "sys/Light"
+        },
+        "hovered": {
+          "value": "{palette.blue.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element to indicate primary actions or features",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.blue.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate primary actions or features such as standard main CTA button",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.blue.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate primary actions or features",
+            "parent": "sys/Light"
+          }
+        },
+        "focused": {
+          "value": "{palette.blue.800}",
+          "type": "color",
+          "description": "Use for background in a focused state of the element to indicate primary actions or features",
+          "parent": "sys/Light"
+        }
+      },
+      "neutral": {
+        "enabled": {
+          "value": "{palette.neutral.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element to indicate secondary actions or feature",
+          "parent": "sys/Light"
+        },
+        "hovered": {
+          "value": "{palette.neutral.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element to indicate secondary actions or feature",
+          "parent": "sys/Light"
+        },
+        "disabled": {
+          "value": "{palette.neutral.300}",
+          "type": "color",
+          "description": "Use for background in a disabled or inactive state of the element to indicate secondary actions or feature",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.neutral.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate secondary actions or feature",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.neutral.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate secondary actions or feature",
+            "parent": "sys/Light"
+          }
+        },
+        "focused": {
+          "value": "{palette.neutral.800}",
+          "type": "color",
+          "description": "Use for background in a focused state of the element to indicate secondary actions or feature",
+          "parent": "sys/Light"
+        }
+      },
+      "danger": {
+        "enabled": {
+          "value": "{palette.red.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        },
+        "hovered": {
+          "value": "{palette.red.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.red.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.red.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
+            "parent": "sys/Light"
+          }
+        },
+        "focused": {
+          "value": "{palette.red.800}",
+          "type": "color",
+          "description": "Use for background in a focused state of the element to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "success": {
+        "enabled": {
+          "value": "{palette.green.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element to indicate a favorable outcome",
+          "parent": "sys/Light"
+        },
+        "hovered": {
+          "value": "{palette.green.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element to indicate a favorable outcome",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.green.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate a favorable outcome",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.green.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate a favorable outcome",
+            "parent": "sys/Light"
+          }
+        },
+        "focused": {
+          "value": "{palette.green.800}",
+          "type": "color",
+          "description": "Use for background in a focused state of the element to indicate a favorable outcome",
+          "parent": "sys/Light"
+        }
+      },
+      "warning": {
+        "enabled": {
+          "value": "{palette.orange.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "hovered": {
+          "value": "{palette.orange.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.orange.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.orange.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
+            "parent": "sys/Light"
+          }
+        }
+      },
+      "update": {
+        "enabled": {
+          "value": "{palette.yellow.600}",
+          "type": "color",
+          "description": "Use for background to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.yellow.100}",
+            "type": "color",
+            "description": "Use for background that require a subtle emphasis to indicate recently refreshed or updated information to users",
+            "parent": "sys/Light"
+          }
+        }
+      },
+      "info": {
+        "enabled": {
+          "value": "{palette.light-blue.600}",
+          "type": "color",
+          "description": "Use for background in a enabled state of the element to provide extra information, explanations, or context for users,",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.light-blue.100}",
+            "type": "color",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,",
+            "parent": "sys/Light"
+          },
+          "hovered": {
+            "value": "{palette.light-blue.200}",
+            "type": "color",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,",
+            "parent": "sys/Light"
+          }
+        },
+        "hovered": {
+          "value": "{palette.light-blue.500}",
+          "type": "color",
+          "description": "Use for background in a hovered state of the element to provide extra information, explanations, or context for users,",
+          "parent": "sys/Light"
+        }
+      },
+      "new": {
+        "enabled": {
+          "value": "{palette.purple.600}",
+          "type": "color",
+          "description": "Use for background to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.purple.100}",
+            "type": "color",
+            "description": "Use for background that require a subtle emphasis to indicate new or recently modified information to users.",
+            "parent": "sys/Light"
+          }
+        }
+      },
+      "disabled": {
+        "value": "{palette.neutral.200}",
+        "type": "color",
+        "description": "Use for background in a disabled or inactive state of the element",
+        "parent": "sys/Light"
+      },
+      "hovered": {
+        "value": "{palette.blue.100}",
+        "type": "color",
+        "description": "Use for background in a hovered state of the element such as hovered menu item",
+        "parent": "sys/Light"
+      },
+      "selected": {
+        "value": "{palette.neutral.50}",
+        "type": "color",
+        "description": "Use for background in a selected state of the element such as selected menu item",
+        "parent": "sys/Light"
+      },
+      "accent-pink": {
+        "enabled": {
+          "value": "{palette.pink.600}",
+          "type": "color",
+          "description": "Use for background of pink color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.pink.100}",
+            "type": "color",
+            "description": "Use for background that require a subtle emphasis of pink color when there is no meaning tied to the color",
+            "parent": "sys/Light"
+          }
+        }
+      },
+      "accent-aqua": {
+        "enabled": {
+          "value": "{palette.aqua.600}",
+          "type": "color",
+          "description": "Use for background of aqua color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.aqua.100}",
+            "type": "color",
+            "description": "Use for background that require a subtle emphasis of aqua color when there is no meaning tied to the color",
+            "parent": "sys/Light"
+          }
+        }
+      },
+      "accent-mint": {
+        "enabled": {
+          "value": "{palette.mint.600}",
+          "type": "color",
+          "description": "Use for background of mint color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "enabled": {
+            "value": "{palette.mint.100}",
+            "type": "color",
+            "description": "Use for background that require a subtle emphasis of mint color when there is no meaning tied to the color",
+            "parent": "sys/Light"
+          }
+        }
+      }
+    },
+    "outline": {
+      "default": {
+        "value": "{palette.neutral.300}",
+        "type": "color",
+        "description": "Use for default outline of most UI interfaces",
+        "parent": "sys/Light"
+      },
+      "subtle": {
+        "value": "{palette.neutral.100}",
+        "type": "color",
+        "description": "Use for outline that require a subtle emphasis",
+        "parent": "sys/Light"
+      },
+      "bold": {
+        "value": "{palette.neutral.600}",
+        "type": "color",
+        "description": "Use for outline that require bold emphasis",
+        "parent": "sys/Light"
+      },
+      "brand": {
+        "default": {
+          "value": "{palette.blue.300}",
+          "type": "color",
+          "description": "Use for outline within primary components with a subtle or non-color background hue",
+          "parent": "sys/Light"
+        }
+      },
+      "danger": {
+        "default": {
+          "value": "{palette.red.300}",
+          "type": "color",
+          "description": "Use for outline to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.red.100}",
+          "type": "color",
+          "description": "Use for outline that require a subtle emphasis to indicate critical actions or errors to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{palette.orange.300}",
+          "type": "color",
+          "description": "Use for outline to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.orange.100}",
+          "type": "color",
+          "description": "Use for outline that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{palette.green.300}",
+          "type": "color",
+          "description": "Use for outline to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.green.100}",
+          "type": "color",
+          "description": "Use for outline that require a subtle emphasis to indicate a favorable outcome such as input field success messaging.",
+          "parent": "sys/Light"
+        }
+      },
+      "new": {
+        "default": {
+          "value": "{palette.purple.300}",
+          "type": "color",
+          "description": "Use for outline to indicate new or recently modified information to users.",
+          "parent": "sys/Light"
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{palette.light-blue.300}",
+          "type": "color",
+          "description": "Use for outline to provide extra information, explanations, or context for users,",
+          "parent": "sys/Light"
+        },
+        "subtle": {
+          "value": "{palette.light-blue.100}",
+          "type": "color",
+          "description": "Use for outline that require a subtle emphasis to provide extra information, explanations, or context for users,",
+          "parent": "sys/Light"
+        }
+      },
+      "inverse": {
+        "value": "{palette.neutral.0}",
+        "type": "color",
+        "description": "Use for outline that require a lighter color to ensure visibility and contrast on bold backgrounds",
+        "parent": "sys/Light"
+      },
+      "update": {
+        "default": {
+          "value": "{palette.yellow.300}",
+          "type": "color",
+          "description": "Use for outline to indicate recently refreshed or updated information to users",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-pink": {
+        "default": {
+          "value": "{palette.pink.300}",
+          "type": "color",
+          "description": "Use for outline of pink color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-aqua": {
+        "default": {
+          "value": "{palette.aqua.300}",
+          "type": "color",
+          "description": "Use for outline of aqua color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      },
+      "accent-mint": {
+        "default": {
+          "value": "{palette.mint.300}",
+          "type": "color",
+          "description": "Use for outline of mint color when there is no meaning tied to the color",
+          "parent": "sys/Light"
+        }
+      }
+    }
+  },
+  "elevation": {
+    "shadow": {
+      "level1": {
+        "value": "{palette.neutral.300A}",
+        "type": "color",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "level2": {
+        "value": "{palette.neutral.200A}",
+        "type": "color",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "level3": {
+        "value": "{palette.neutral.200A}",
+        "type": "color",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "level4": {
+        "value": "{palette.neutral.200A}",
+        "type": "color",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "level4_soft": {
+        "value": "{palette.neutral.50A}",
+        "type": "color",
+        "description": "",
+        "parent": "sys/Light"
+      }
+    }
+  },
+  "typography": {
+    "lineHeight": {
+      "label": {
+        "value": "{font.lineHeight.16}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading1": {
+        "value": "{font.lineHeight.80}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading2": {
+        "value": "{font.lineHeight.40}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading3": {
+        "value": "{font.lineHeight.32}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading4": {
+        "value": "{font.lineHeight.24}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading5": {
+        "value": "{font.lineHeight.24}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading6": {
+        "value": "{font.lineHeight.20}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body1": {
+        "value": "{font.lineHeight.24}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body2": {
+        "value": "{font.lineHeight.20}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body3": {
+        "value": "{font.lineHeight.16}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body4": {
+        "value": "{font.lineHeight.16}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body5": {
+        "value": "{font.lineHeight.12}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption1": {
+        "value": "{font.lineHeight.20}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption2": {
+        "value": "{font.lineHeight.12}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "button": {
+        "sm": {
+          "value": "{font.lineHeight.16}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        },
+        "md": {
+          "value": "{font.lineHeight.20}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        }
+      }
+    },
+    "size": {
+      "heading1": {
+        "value": "{font.size.64}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading2": {
+        "value": "{font.size.32}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading3": {
+        "value": "{font.size.24}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading4": {
+        "value": "{font.size.20}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading5": {
+        "value": "{font.size.16}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading6": {
+        "value": "{font.size.14}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body1": {
+        "value": "{font.size.16}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body2": {
+        "value": "{font.size.14}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body3": {
+        "value": "{font.size.12}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body4": {
+        "value": "{font.size.11}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body5": {
+        "value": "{font.size.8}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "label": {
+        "value": "{font.size.12}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption1": {
+        "value": "{font.size.14}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption2": {
+        "value": "{font.size.8}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "button": {
+        "sm": {
+          "value": "{font.size.12}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        },
+        "md": {
+          "value": "{font.size.14}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        }
+      }
+    },
+    "weight": {
+      "heading1": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading2": {
+        "value": "{font.weight.semibold}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading3": {
+        "value": "{font.weight.medium}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading4": {
+        "value": "{font.weight.semibold}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading5": {
+        "value": "{font.weight.medium}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "heading6": {
+        "value": "{font.weight.medium}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body1": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body2": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body3": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body4": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "body5": {
+        "value": "{font.weight.regular}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "button": {
+        "sm": {
+          "value": "{font.weight.medium}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        },
+        "md": {
+          "value": "{font.weight.medium}",
+          "type": "dimension",
+          "description": "",
+          "parent": "sys/Light"
+        }
+      },
+      "label": {
+        "value": "{font.weight.medium}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption1": {
+        "value": "{font.weight.semibold}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      },
+      "caption2": {
+        "value": "{font.weight.semibold}",
+        "type": "dimension",
+        "description": "",
+        "parent": "sys/Light"
+      }
+    }
+  }
+}
