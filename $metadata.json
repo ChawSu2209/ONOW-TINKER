@@ -1,0 +1,6 @@
+{
+  "tokenSetOrder": [
+    "core/Light",
+    "sys/Light"
+  ]
+}
