@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "bold": {
-        "value": "{palette.neutral.900}",
+        "value": "{palette.neutral.800}",
         "type": "color",
         "parent": "sys/Light",
         "description": "Use for important text such as headers, titles and important information",
