@@ -5,8 +5,7 @@
         "value": "{palette.neutral.800}",
         "type": "color",
         "parent": "sys/Light",
-        "description": "Use for important text such as headers, titles and important information",
-        "oldValue": "{palette.neutral.800}"
+        "description": "Use for important text such as headers, titles and important information"
       },
       "new": {
         "default": {
