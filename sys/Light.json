@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "bold": {
-        "value": "{palette.neutral.800}",
+        "value": "{palette.neutral.900}",
         "type": "color",
         "parent": "sys/Light",
         "description": "Use for important text such as headers, titles and important information"
@@ -11,226 +11,226 @@
         "default": {
           "value": "{palette.purple.600}",
           "type": "color",
-          "description": "Use for text to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate new or recently modified information to users."
         },
         "bold": {
           "value": "{palette.purple.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to indicate new or recently modified information to users."
         },
         "subtle": {
           "value": "{palette.purple.400}",
           "type": "color",
-          "description": "Use for text that require subtle emphasis to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require subtle emphasis to indicate new or recently modified information to users."
         }
       },
       "subtlest": {
         "value": "{palette.neutral.300}",
         "type": "color",
-        "description": "Use for secondary text such as description, navigation, subtle button links, input field labels, and all caps subheadings.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for secondary text such as description, navigation, subtle button links, input field labels, and all caps subheadings."
       },
       "default": {
         "value": "{palette.neutral.700}",
         "type": "color",
-        "description": "Use for normal text such as body copy, paragraph and neutral buttons.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for normal text such as body copy, paragraph and neutral buttons."
       },
       "inverse": {
         "value": "{palette.neutral.0}",
         "type": "color",
-        "description": "Use for text that require a lighter color to ensure visibility and contrast on bold backgrounds",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for text that require a lighter color to ensure visibility and contrast on bold backgrounds"
       },
       "disabled": {
         "value": "{palette.neutral.400A}",
         "type": "color",
-        "description": "Use for text in a disabled or inactive state of the element",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for text in a disabled or inactive state of the element"
       },
       "info": {
         "default": {
           "value": "{palette.light-blue.600}",
           "type": "color",
-          "description": "Use for text to provide extra information, explanations, or context for users, such as links or numerical data",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to provide extra information, explanations, or context for users, such as links or numerical data"
         },
         "bold": {
           "value": "{palette.light-blue.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to provide extra information, explanations, or context for users, such as links or numerical data"
         },
         "subtle": {
           "value": "{palette.light-blue.400}",
           "type": "color",
-          "description": "Use for text that require subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data"
         }
       },
       "success": {
         "default": {
           "value": "{palette.green.600}",
           "type": "color",
-          "description": "Use for text to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate a favorable outcome such as input field success messaging."
         },
         "bold": {
           "value": "{palette.green.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to indicate a favorable outcome such as input field success messaging."
         }
       },
       "brand": {
         "default": {
           "value": "{palette.blue.600}",
           "type": "color",
-          "description": "Use for text within primary components with a subtle background hue",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text within primary components with a subtle background hue"
         },
         "bold": {
           "value": "{palette.blue.800}",
           "type": "color",
-          "description": "Use for text to indicate important brand-related information such as product names, slogans, or key messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate important brand-related information such as product names, slogans, or key messaging."
         }
       },
       "danger": {
         "default": {
           "value": "{palette.red.600}",
           "type": "color",
-          "description": "Use for text to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate critical actions or errors to users."
         },
         "bold": {
           "value": "{palette.red.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to indicate critical actions or errors to users."
         }
       },
       "warning": {
         "default": {
           "value": "{palette.orange.600}",
           "type": "color",
-          "description": "Use for text to indicate caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate caution, notices, or non-critical alerts to users."
         },
         "bold": {
           "value": "{palette.orange.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to indicate caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to indicate caution, notices, or non-critical alerts to users."
         },
         "subtle": {
           "value": "{palette.orange.400}",
           "type": "color",
-          "description": "Use for text that require subtle emphasis to indicate caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require subtle emphasis to indicate caution, notices, or non-critical alerts to users."
         }
       },
       "update": {
         "default": {
           "value": "{palette.yellow.600}",
           "type": "color",
-          "description": "Use for text to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text to indicate recently refreshed or updated information to users"
         },
         "bold": {
           "value": "{palette.yellow.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis to indicate recently refreshed or updated information to users"
         },
         "subtle": {
           "value": "{palette.yellow.400}",
           "type": "color",
-          "description": "Use for text that require subtle emphasis to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require subtle emphasis to indicate recently refreshed or updated information to users"
         }
       },
       "link": {
         "enabled": {
           "value": "{palette.light-blue.600}",
           "type": "color",
-          "description": "Use for link in enabled state",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for link in enabled state"
         },
         "visited": {
           "value": "{palette.purple.700}",
           "type": "color",
-          "description": "Use for link in visited state",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for link in visited state"
         }
       },
       "subtle": {
         "value": "{palette.neutral.500}",
         "type": "color",
-        "description": "Use for tertiary text such as meta-data, breadcrumbs, input field placeholder and helper text.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for tertiary text such as meta-data, breadcrumbs, input field placeholder and helper text."
       },
       "accent-pink": {
         "bold": {
           "value": "{palette.pink.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as hover state of tag components",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as hover state of tag components"
         },
         "default": {
           "value": "{palette.pink.600}",
           "type": "color",
-          "description": "Use for text on subtlest pink accent backgrounds when there is no meaning tied to the color such as tag components",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text on subtlest pink accent backgrounds when there is no meaning tied to the color such as tag components"
         },
         "subtle": {
           "value": "{palette.pink.400}",
           "type": "color",
-          "description": "Use for text that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as disabled state of tag components",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color such as disabled state of tag components"
         }
       },
       "accent-aqua": {
         "bold": {
           "value": "{palette.aqua.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color"
         },
         "default": {
           "value": "{palette.aqua.600}",
           "type": "color",
-          "description": "Use for text on subtlest aqua accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text on subtlest aqua accent backgrounds when there is no meaning tied to the color"
         },
         "subtle": {
           "value": "{palette.aqua.400}",
           "type": "color",
-          "description": "Use for text that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color"
         }
       },
       "accent-mint": {
         "bold": {
           "value": "{palette.mint.800}",
           "type": "color",
-          "description": "Use for text that require bold emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require bold emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color"
         },
         "default": {
           "value": "{palette.mint.600}",
           "type": "color",
-          "description": "Use for text on subtlest mint accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text on subtlest mint accent backgrounds when there is no meaning tied to the color"
         },
         "subtle": {
           "value": "{palette.mint.400}",
           "type": "color",
-          "description": "Use for text that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for text that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color"
         }
       }
     },
@@ -238,171 +238,171 @@
       "default": {
         "value": "{palette.neutral.600}",
         "type": "color",
-        "description": "Use for icon placed on neutral subtle, or colorless background components, such as icon-only buttons or icons within chips.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for icon placed on neutral subtle, or colorless background components, such as icon-only buttons or icons within chips."
       },
       "subtle": {
         "value": "{palette.neutral.500}",
         "type": "color",
-        "description": "Use for icon that require a subtle emphasis to place on neutral subtle, or colorless background components such as icon-only buttons or icons within chips.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for icon that require a subtle emphasis to place on neutral subtle, or colorless background components such as icon-only buttons or icons within chips."
       },
       "inverse": {
         "value": "{palette.neutral.0}",
         "type": "color",
-        "description": "Use for icon that require a lighter color to ensure visibility and contrast on bold backgrounds",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for icon that require a lighter color to ensure visibility and contrast on bold backgrounds"
       },
       "disabled": {
         "value": "{palette.neutral.400A}",
         "type": "color",
-        "description": "Use for icon in a disabled or inactive state",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for icon in a disabled or inactive state"
       },
       "bold": {
         "value": "{palette.neutral.800}",
         "type": "color",
-        "description": "Use for icon that require bold emphasis such as headers, titles and important information",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for icon that require bold emphasis such as headers, titles and important information"
       },
       "brand": {
         "default": {
           "value": "{palette.blue.600}",
           "type": "color",
-          "description": "Use for icon within primary components with a subtle background hue",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon within primary components with a subtle background hue"
         },
         "subtle": {
           "value": "{palette.blue.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to indicate important brand-related information",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to indicate important brand-related information"
         }
       },
       "danger": {
         "default": {
           "value": "{palette.red.600}",
           "type": "color",
-          "description": "Use for icon to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to indicate critical actions or errors to users."
         },
         "subtle": {
           "value": "{palette.red.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to indicate critical actions or errors to users."
         }
       },
       "warning": {
         "default": {
           "value": "{palette.orange.600}",
           "type": "color",
-          "description": "Use for icon to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to indicate a favorable outcome such as input field success messaging."
         },
         "subtle": {
           "value": "{palette.orange.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to indicate a favorable outcome such as input field success messaging."
         }
       },
       "success": {
         "default": {
           "value": "{palette.green.600}",
           "type": "color",
-          "description": "Use for icon to provide extra information, explanations, or context for users, such as links or numerical data",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to provide extra information, explanations, or context for users, such as links or numerical data"
         },
         "subtle": {
           "value": "{palette.green.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to provide extra information, explanations, or context for users, such as links or numerical data"
         }
       },
       "info": {
         "default": {
           "value": "{palette.light-blue.600}",
           "type": "color",
-          "description": "Use for icon to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to indicate new or recently modified information to users."
         },
         "subtle": {
           "value": "{palette.light-blue.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to indicate new or recently modified information to users."
         }
       },
       "new": {
         "default": {
           "value": "{palette.purple.600}",
           "type": "color",
-          "description": "Use for icon to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to signify caution, notices, or non-critical alerts to users."
         },
         "subtle": {
           "value": "{palette.purple.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to signify caution, notices, or non-critical alerts to users."
         }
       },
       "update": {
         "default": {
           "value": "{palette.yellow.600}",
           "type": "color",
-          "description": "Use for icon to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon to indicate recently refreshed or updated information to users"
         },
         "subtle": {
           "value": "{palette.yellow.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis to indicate recently refreshed or updated information to users"
         }
       },
       "accent-pink": {
         "default": {
           "value": "{palette.pink.600}",
           "type": "color",
-          "description": "Use for icon on subtlest pink accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon on subtlest pink accent backgrounds when there is no meaning tied to the color"
         },
         "subtle": {
           "value": "{palette.pink.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis on subtlest pink accent backgrounds when there is no meaning tied to the color"
         }
       },
       "accent-aqua": {
         "default": {
           "value": "{palette.aqua.600}",
           "type": "color",
-          "description": "Use for icon on subtlest aqua accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon on subtlest aqua accent backgrounds when there is no meaning tied to the color"
         },
         "subtle": {
           "value": "{palette.aqua.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis on subtlest aqua accent backgrounds when there is no meaning tied to the color"
         }
       },
       "accent-mint": {
         "default": {
           "value": "{palette.mint.600}",
           "type": "color",
-          "description": "Use for icon on subtlest mint accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon on subtlest mint accent backgrounds when there is no meaning tied to the color"
         },
         "subtle": {
           "value": "{palette.mint.400}",
           "type": "color",
-          "description": "Use for icon that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for icon that require a subtle emphasis on subtlest mint accent backgrounds when there is no meaning tied to the color"
         }
       }
     },
@@ -410,182 +410,182 @@
       "default": {
         "value": "{palette.neutral.50}",
         "type": "color",
-        "description": "Use for default background of large UI interfaces such as main background of whole page",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for default background of large UI interfaces such as main background of whole page"
       },
       "inverse": {
         "value": "{palette.neutral.0}",
         "type": "color",
-        "description": "Use for background that require a lighter color to ensure visibility and contrast against dark or colored foreground elements.",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for background that require a lighter color to ensure visibility and contrast against dark or colored foreground elements."
       },
       "brand": {
         "enabled": {
           "value": "{palette.blue.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element to indicate primary actions or features such as background of main CTA buttons",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element to indicate primary actions or features such as background of main CTA buttons"
         },
         "hovered": {
           "value": "{palette.blue.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element to indicate primary actions or features",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element to indicate primary actions or features"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.blue.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate primary actions or features such as standard main CTA button",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate primary actions or features such as standard main CTA button"
           },
           "hovered": {
             "value": "{palette.blue.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate primary actions or features",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate primary actions or features"
           }
         },
         "focused": {
           "value": "{palette.blue.800}",
           "type": "color",
-          "description": "Use for background in a focused state of the element to indicate primary actions or features",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a focused state of the element to indicate primary actions or features"
         }
       },
       "neutral": {
         "enabled": {
           "value": "{palette.neutral.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element to indicate secondary actions or feature",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element to indicate secondary actions or feature"
         },
         "hovered": {
           "value": "{palette.neutral.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element to indicate secondary actions or feature",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element to indicate secondary actions or feature"
         },
         "disabled": {
           "value": "{palette.neutral.300}",
           "type": "color",
-          "description": "Use for background in a disabled or inactive state of the element to indicate secondary actions or feature",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a disabled or inactive state of the element to indicate secondary actions or feature"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.neutral.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate secondary actions or feature",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate secondary actions or feature"
           },
           "hovered": {
             "value": "{palette.neutral.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate secondary actions or feature",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate secondary actions or feature"
           }
         },
         "focused": {
           "value": "{palette.neutral.800}",
           "type": "color",
-          "description": "Use for background in a focused state of the element to indicate secondary actions or feature",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a focused state of the element to indicate secondary actions or feature"
         }
       },
       "danger": {
         "enabled": {
           "value": "{palette.red.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users."
         },
         "hovered": {
           "value": "{palette.red.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users."
         },
         "subtle": {
           "enabled": {
             "value": "{palette.red.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate critical actions or errors to users."
           },
           "hovered": {
             "value": "{palette.red.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users.",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate critical actions or errors to users."
           }
         },
         "focused": {
           "value": "{palette.red.800}",
           "type": "color",
-          "description": "Use for background in a focused state of the element to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a focused state of the element to indicate critical actions or errors to users."
         }
       },
       "success": {
         "enabled": {
           "value": "{palette.green.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element to indicate a favorable outcome",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element to indicate a favorable outcome"
         },
         "hovered": {
           "value": "{palette.green.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element to indicate a favorable outcome",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element to indicate a favorable outcome"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.green.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate a favorable outcome",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to indicate a favorable outcome"
           },
           "hovered": {
             "value": "{palette.green.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate a favorable outcome",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to indicate a favorable outcome"
           }
         },
         "focused": {
           "value": "{palette.green.800}",
           "type": "color",
-          "description": "Use for background in a focused state of the element to indicate a favorable outcome",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a focused state of the element to indicate a favorable outcome"
         }
       },
       "warning": {
         "enabled": {
           "value": "{palette.orange.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element to signify caution, notices, or non-critical alerts to users."
         },
         "hovered": {
           "value": "{palette.orange.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element to signify caution, notices, or non-critical alerts to users."
         },
         "subtle": {
           "enabled": {
             "value": "{palette.orange.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users."
           },
           "hovered": {
             "value": "{palette.orange.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to signify caution, notices, or non-critical alerts to users."
           }
         }
       },
@@ -593,15 +593,15 @@
         "enabled": {
           "value": "{palette.yellow.600}",
           "type": "color",
-          "description": "Use for background to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background to indicate recently refreshed or updated information to users"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.yellow.100}",
             "type": "color",
-            "description": "Use for background that require a subtle emphasis to indicate recently refreshed or updated information to users",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background that require a subtle emphasis to indicate recently refreshed or updated information to users"
           }
         }
       },
@@ -609,77 +609,77 @@
         "enabled": {
           "value": "{palette.light-blue.600}",
           "type": "color",
-          "description": "Use for background in a enabled state of the element to provide extra information, explanations, or context for users,",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a enabled state of the element to provide extra information, explanations, or context for users,"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.light-blue.100}",
             "type": "color",
-            "description": "Use for background in a enabled state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a enabled state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,"
           },
           "hovered": {
             "value": "{palette.light-blue.200}",
             "type": "color",
-            "description": "Use for background in a hovered state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background in a hovered state of the element that require a subtle emphasis to provide extra information, explanations, or context for users,"
           }
         },
         "hovered": {
           "value": "{palette.light-blue.500}",
           "type": "color",
-          "description": "Use for background in a hovered state of the element to provide extra information, explanations, or context for users,",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background in a hovered state of the element to provide extra information, explanations, or context for users,"
         }
       },
       "new": {
         "enabled": {
           "value": "{palette.purple.600}",
           "type": "color",
-          "description": "Use for background to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background to indicate new or recently modified information to users."
         },
         "subtle": {
           "enabled": {
             "value": "{palette.purple.100}",
             "type": "color",
-            "description": "Use for background that require a subtle emphasis to indicate new or recently modified information to users.",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background that require a subtle emphasis to indicate new or recently modified information to users."
           }
         }
       },
       "disabled": {
         "value": "{palette.neutral.200}",
         "type": "color",
-        "description": "Use for background in a disabled or inactive state of the element",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for background in a disabled or inactive state of the element"
       },
       "hovered": {
         "value": "{palette.blue.100}",
         "type": "color",
-        "description": "Use for background in a hovered state of the element such as hovered menu item",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for background in a hovered state of the element such as hovered menu item"
       },
       "selected": {
         "value": "{palette.neutral.50}",
         "type": "color",
-        "description": "Use for background in a selected state of the element such as selected menu item",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for background in a selected state of the element such as selected menu item"
       },
       "accent-pink": {
         "enabled": {
           "value": "{palette.pink.600}",
           "type": "color",
-          "description": "Use for background of pink color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background of pink color when there is no meaning tied to the color"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.pink.100}",
             "type": "color",
-            "description": "Use for background that require a subtle emphasis of pink color when there is no meaning tied to the color",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background that require a subtle emphasis of pink color when there is no meaning tied to the color"
           }
         }
       },
@@ -687,15 +687,15 @@
         "enabled": {
           "value": "{palette.aqua.600}",
           "type": "color",
-          "description": "Use for background of aqua color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background of aqua color when there is no meaning tied to the color"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.aqua.100}",
             "type": "color",
-            "description": "Use for background that require a subtle emphasis of aqua color when there is no meaning tied to the color",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background that require a subtle emphasis of aqua color when there is no meaning tied to the color"
           }
         }
       },
@@ -703,15 +703,15 @@
         "enabled": {
           "value": "{palette.mint.600}",
           "type": "color",
-          "description": "Use for background of mint color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for background of mint color when there is no meaning tied to the color"
         },
         "subtle": {
           "enabled": {
             "value": "{palette.mint.100}",
             "type": "color",
-            "description": "Use for background that require a subtle emphasis of mint color when there is no meaning tied to the color",
-            "parent": "sys/Light"
+            "parent": "sys/Light",
+            "description": "Use for background that require a subtle emphasis of mint color when there is no meaning tied to the color"
           }
         }
       }
@@ -720,129 +720,129 @@
       "default": {
         "value": "{palette.neutral.300}",
         "type": "color",
-        "description": "Use for default outline of most UI interfaces",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for default outline of most UI interfaces"
       },
       "subtle": {
         "value": "{palette.neutral.100}",
         "type": "color",
-        "description": "Use for outline that require a subtle emphasis",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for outline that require a subtle emphasis"
       },
       "bold": {
         "value": "{palette.neutral.600}",
         "type": "color",
-        "description": "Use for outline that require bold emphasis",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for outline that require bold emphasis"
       },
       "brand": {
         "default": {
           "value": "{palette.blue.300}",
           "type": "color",
-          "description": "Use for outline within primary components with a subtle or non-color background hue",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline within primary components with a subtle or non-color background hue"
         }
       },
       "danger": {
         "default": {
           "value": "{palette.red.300}",
           "type": "color",
-          "description": "Use for outline to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to indicate critical actions or errors to users."
         },
         "subtle": {
           "value": "{palette.red.100}",
           "type": "color",
-          "description": "Use for outline that require a subtle emphasis to indicate critical actions or errors to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline that require a subtle emphasis to indicate critical actions or errors to users."
         }
       },
       "warning": {
         "default": {
           "value": "{palette.orange.300}",
           "type": "color",
-          "description": "Use for outline to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to signify caution, notices, or non-critical alerts to users."
         },
         "subtle": {
           "value": "{palette.orange.100}",
           "type": "color",
-          "description": "Use for outline that require a subtle emphasis to signify caution, notices, or non-critical alerts to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline that require a subtle emphasis to signify caution, notices, or non-critical alerts to users."
         }
       },
       "success": {
         "default": {
           "value": "{palette.green.300}",
           "type": "color",
-          "description": "Use for outline to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to indicate a favorable outcome such as input field success messaging."
         },
         "subtle": {
           "value": "{palette.green.100}",
           "type": "color",
-          "description": "Use for outline that require a subtle emphasis to indicate a favorable outcome such as input field success messaging.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline that require a subtle emphasis to indicate a favorable outcome such as input field success messaging."
         }
       },
       "new": {
         "default": {
           "value": "{palette.purple.300}",
           "type": "color",
-          "description": "Use for outline to indicate new or recently modified information to users.",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to indicate new or recently modified information to users."
         }
       },
       "info": {
         "default": {
           "value": "{palette.light-blue.300}",
           "type": "color",
-          "description": "Use for outline to provide extra information, explanations, or context for users,",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to provide extra information, explanations, or context for users,"
         },
         "subtle": {
           "value": "{palette.light-blue.100}",
           "type": "color",
-          "description": "Use for outline that require a subtle emphasis to provide extra information, explanations, or context for users,",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline that require a subtle emphasis to provide extra information, explanations, or context for users,"
         }
       },
       "inverse": {
         "value": "{palette.neutral.0}",
         "type": "color",
-        "description": "Use for outline that require a lighter color to ensure visibility and contrast on bold backgrounds",
-        "parent": "sys/Light"
+        "parent": "sys/Light",
+        "description": "Use for outline that require a lighter color to ensure visibility and contrast on bold backgrounds"
       },
       "update": {
         "default": {
           "value": "{palette.yellow.300}",
           "type": "color",
-          "description": "Use for outline to indicate recently refreshed or updated information to users",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline to indicate recently refreshed or updated information to users"
         }
       },
       "accent-pink": {
         "default": {
           "value": "{palette.pink.300}",
           "type": "color",
-          "description": "Use for outline of pink color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline of pink color when there is no meaning tied to the color"
         }
       },
       "accent-aqua": {
         "default": {
           "value": "{palette.aqua.300}",
           "type": "color",
-          "description": "Use for outline of aqua color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline of aqua color when there is no meaning tied to the color"
         }
       },
       "accent-mint": {
         "default": {
           "value": "{palette.mint.300}",
           "type": "color",
-          "description": "Use for outline of mint color when there is no meaning tied to the color",
-          "parent": "sys/Light"
+          "parent": "sys/Light",
+          "description": "Use for outline of mint color when there is no meaning tied to the color"
         }
       }
     }
@@ -852,37 +852,32 @@
       "level1": {
         "value": "{palette.neutral.300A}",
         "type": "color",
-        "description": "Use for actionable elements that are to provide a subtle yet noticeable separation from the main content such as main CTA Buttons, Navigation Bars",
         "parent": "sys/Light",
-        "oldValue": "{palette.neutral.300A}"
+        "description": "Use for actionable elements that are to provide a subtle yet noticeable separation from the main content such as main CTA Buttons, Navigation Bars"
       },
       "level2": {
         "value": "{palette.neutral.200A}",
         "type": "color",
-        "description": "Use for elements that temporarily rise above others during interactions, signaling an active or dynamic state such as draging an item or hover state of cards",
         "parent": "sys/Light",
-        "oldValue": "{palette.neutral.200A}"
+        "description": "Use for elements that temporarily rise above others during interactions, signaling an active or dynamic state such as draging an item or hover state of cards"
       },
       "level3": {
         "value": "{palette.neutral.200A}",
         "type": "color",
-        "description": "Use for floating elements that have a connection to the layout itself, usually an extension to a layout item.E.g. popover lists (Select, Dropdown, etc.), floating panels (Color picker, Date-time picker), Tooltips, FAB etc.",
         "parent": "sys/Light",
-        "oldValue": "{palette.neutral.200A}"
+        "description": "Use for floating elements that have a connection to the layout itself, usually an extension to a layout item.E.g. popover lists (Select, Dropdown, etc.), floating panels (Color picker, Date-time picker), Tooltips, FAB etc."
       },
       "level4": {
         "value": "{palette.neutral.200A}",
         "type": "color",
-        "description": "Use for floating elements that are not part of the layout, and fully detached from it.\nE.g. Dialogs, Snack Bars, floating Notifications, Steps bar, etc.",
         "parent": "sys/Light",
-        "oldValue": "{palette.neutral.200A}"
+        "description": "Use for floating elements that are not part of the layout, and fully detached from it.\nE.g. Dialogs, Snack Bars, floating Notifications, Steps bar, etc."
       },
       "level4_soft": {
         "value": "{palette.neutral.50A}",
         "type": "color",
-        "description": "Use for cards,widgets or tables as a way to provide additional hierarchy or emphasis and differentiate from other elements.",
         "parent": "sys/Light",
-        "oldValue": "{palette.neutral.50A}"
+        "description": "Use for cards,widgets or tables as a way to provide additional hierarchy or emphasis and differentiate from other elements."
       }
     }
   },
@@ -891,115 +886,99 @@
       "label": {
         "value": "{font.lineHeight.16}",
         "type": "dimension",
-        "description": "Use for line height of the text elements that serve as labels, providing clear and concise information",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.16}"
+        "description": "Use for line height of the text elements that serve as labels, providing clear and concise information"
       },
       "heading1": {
         "value": "{font.lineHeight.80}",
         "type": "dimension",
-        "description": "Use for line height of the most prominent headings to create catchy titles, specifically apply for text with font size \"heading1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.80}"
+        "description": "Use for line height of the most prominent headings to create catchy titles, specifically apply for text with font size \"heading1\""
       },
       "heading2": {
         "value": "{font.lineHeight.40}",
         "type": "dimension",
-        "description": "Use for line height of the secondary headings that are slightly less prominent than the main title, specifically apply for text with font size \"heading2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.40}"
+        "description": "Use for line height of the secondary headings that are slightly less prominent than the main title, specifically apply for text with font size \"heading2\""
       },
       "heading3": {
         "value": "{font.lineHeight.32}",
         "type": "dimension",
-        "description": "Use for line height of the headings that require the highest level of emphasis within Enable's products, specifically apply for text with font size \"heading3\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.32}"
+        "description": "Use for line height of the headings that require the highest level of emphasis within Enable's products, specifically apply for text with font size \"heading3\""
       },
       "heading4": {
         "value": "{font.lineHeight.24}",
         "type": "dimension",
-        "description": "Use for line height of the headings that require a significant level of emphasis within Enable's products, specifically apply for text with font size \"heading4\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.24}"
+        "description": "Use for line height of the headings that require a significant level of emphasis within Enable's products, specifically apply for text with font size \"heading4\""
       },
       "heading5": {
         "value": "{font.lineHeight.24}",
         "type": "dimension",
-        "description": "Use for line height of the headings that require a less level of emphasis within Enable's products, specifically apply for text with font size \"heading5\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.24}"
+        "description": "Use for line height of the headings that require a less level of emphasis within Enable's products, specifically apply for text with font size \"heading5\""
       },
       "heading6": {
         "value": "{font.lineHeight.20}",
         "type": "dimension",
-        "description": "Use for line height of the least prominent headings, suitable for the smallest sections or specific points within detailed content, specifically apply for text with font size \"heading6\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.20}"
+        "description": "Use for line height of the least prominent headings, suitable for the smallest sections or specific points within detailed content, specifically apply for text with font size \"heading6\""
       },
       "body1": {
         "value": "{font.lineHeight.24}",
         "type": "dimension",
-        "description": "Use for line height of the biggest body text that requires more emphasis than the default body text, specifically apply for text with font size \"body1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.24}"
+        "description": "Use for line height of the biggest body text that requires more emphasis than the default body text, specifically apply for text with font size \"body1\""
       },
       "body2": {
         "value": "{font.lineHeight.20}",
         "type": "dimension",
-        "description": "Use for line height of the primary body text, ensuring clear readability and consistency, specifically apply for text with font size \"body2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.20}"
+        "description": "Use for line height of the primary body text, ensuring clear readability and consistency, specifically apply for text with font size \"body2\""
       },
       "body3": {
         "value": "{font.lineHeight.16}",
         "type": "dimension",
-        "description": "Use for line height of the secondary body text, which needs to be less prominent than default body text, specifically apply for text with font size \"body3\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.16}"
+        "description": "Use for line height of the secondary body text, which needs to be less prominent than default body text, specifically apply for text with font size \"body3\""
       },
       "body4": {
         "value": "{font.lineHeight.16}",
         "type": "dimension",
-        "description": "Use for line height  of the text elements that need subtle emphasis, supporting other body text elements,specifically apply for text with font size \"body4\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.16}"
+        "description": "Use for line height  of the text elements that need subtle emphasis, supporting other body text elements,specifically apply for text with font size \"body4\""
       },
       "body5": {
         "value": "{font.lineHeight.12}",
         "type": "dimension",
-        "description": "Use for line height of the least prominent body text which is in data-heavy layouts and small components, specifically apply for text with font size \"body5\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.12}"
+        "description": "Use for line height of the least prominent body text which is in data-heavy layouts and small components, specifically apply for text with font size \"body5\""
       },
       "caption1": {
         "value": "{font.lineHeight.20}",
         "type": "dimension",
-        "description": "Use for line height of the text elements that are in all capital letters, providing primary captions with clear and subtle emphasis specifically apply for text with font size \"caption1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.20}"
+        "description": "Use for line height of the text elements that are in all capital letters, providing primary captions with clear and subtle emphasis specifically apply for text with font size \"caption1\""
       },
       "caption2": {
         "value": "{font.lineHeight.12}",
         "type": "dimension",
-        "description": "Use for line height of the text elements that are in all capital letters, providing secondary captions with clear and subtle emphasis specifically apply for text with font size \"caption2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.lineHeight.12}"
+        "description": "Use for line height of the text elements that are in all capital letters, providing secondary captions with clear and subtle emphasis specifically apply for text with font size \"caption2\""
       },
       "button": {
         "sm": {
           "value": "{font.lineHeight.16}",
           "type": "dimension",
-          "description": "Use for line height of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.lineHeight.16}"
+          "description": "Use for line height of the text elements of the button component"
         },
         "md": {
           "value": "{font.lineHeight.20}",
           "type": "dimension",
-          "description": "Use for line height of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.lineHeight.20}"
+          "description": "Use for line height of the text elements of the button component"
         }
       }
     },
@@ -1007,115 +986,99 @@
       "heading1": {
         "value": "{font.size.64}",
         "type": "dimension",
-        "description": "Use for font size of the most prominent headings to make catchy titles, such as main titles on landing page",
         "parent": "sys/Light",
-        "oldValue": "{font.size.64}"
+        "description": "Use for font size of the most prominent headings to make catchy titles, such as main titles on landing page"
       },
       "heading2": {
         "value": "{font.size.32}",
         "type": "dimension",
-        "description": "Use for font size of the secondary headings that are slightly less prominent than the main title such as secondary titles on landing page",
         "parent": "sys/Light",
-        "oldValue": "{font.size.32}"
+        "description": "Use for font size of the secondary headings that are slightly less prominent than the main title such as secondary titles on landing page"
       },
       "heading3": {
         "value": "{font.size.24}",
         "type": "dimension",
-        "description": "Use for font size of the headings that require the highest level of emphasis within Enable's products, such as page titles or important headers within sections",
         "parent": "sys/Light",
-        "oldValue": "{font.size.24}"
+        "description": "Use for font size of the headings that require the highest level of emphasis within Enable's products, such as page titles or important headers within sections"
       },
       "heading4": {
         "value": "{font.size.20}",
         "type": "dimension",
-        "description": "Use for font size of the headings that require a significant level of emphasis within Enable's products, such as page titles or headers within sections",
         "parent": "sys/Light",
-        "oldValue": "{font.size.20}"
+        "description": "Use for font size of the headings that require a significant level of emphasis within Enable's products, such as page titles or headers within sections"
       },
       "heading5": {
         "value": "{font.size.16}",
         "type": "dimension",
-        "description": "Use for font size of the headings that require a less level of emphasis within Enable's products, such as feature title or tab title",
         "parent": "sys/Light",
-        "oldValue": "{font.size.16}"
+        "description": "Use for font size of the headings that require a less level of emphasis within Enable's products, such as feature title or tab title"
       },
       "heading6": {
         "value": "{font.size.14}",
         "type": "dimension",
-        "description": "Use for font size to the least prominent headings, suitable for the smallest sections or specific points within detailed content such as heading of tabs",
         "parent": "sys/Light",
-        "oldValue": "{font.size.14}"
+        "description": "Use for font size to the least prominent headings, suitable for the smallest sections or specific points within detailed content such as heading of tabs"
       },
       "body1": {
         "value": "{font.size.16}",
         "type": "dimension",
-        "description": "\"Use for font size of the primary body text, ensuring clear readability and consistency such as main paragraphs\nDescriptive text and Long-form content\"",
         "parent": "sys/Light",
-        "oldValue": "{font.size.16}"
+        "description": "\"Use for font size of the primary body text, ensuring clear readability and consistency such as main paragraphs\nDescriptive text and Long-form content\""
       },
       "body2": {
         "value": "{font.size.14}",
         "type": "dimension",
-        "description": "\"Use for font size of the primary body text, ensuring clear readability and consistency such as main paragraphs\nDescriptive text and Long-form content\"",
         "parent": "sys/Light",
-        "oldValue": "{font.size.14}"
+        "description": "\"Use for font size of the primary body text, ensuring clear readability and consistency such as main paragraphs\nDescriptive text and Long-form content\""
       },
       "body3": {
         "value": "{font.size.12}",
         "type": "dimension",
-        "description": "Use for font size of the secondary body text, which needs to be less prominent than default body text such as meta data descriptions, breadcrumps",
         "parent": "sys/Light",
-        "oldValue": "{font.size.12}"
+        "description": "Use for font size of the secondary body text, which needs to be less prominent than default body text such as meta data descriptions, breadcrumps"
       },
       "body4": {
         "value": "{font.size.11}",
         "type": "dimension",
-        "description": "Use for font size of the text elements that need subtle emphasis, supporting other body text elements such as description text under secondary body text",
         "parent": "sys/Light",
-        "oldValue": "{font.size.11}"
+        "description": "Use for font size of the text elements that need subtle emphasis, supporting other body text elements such as description text under secondary body text"
       },
       "body5": {
         "value": "{font.size.8}",
         "type": "dimension",
-        "description": "Use for the font size of the least prominent body text which is in data-heavy layouts and small components, such as chips,",
         "parent": "sys/Light",
-        "oldValue": "{font.size.8}"
+        "description": "Use for the font size of the least prominent body text which is in data-heavy layouts and small components, such as chips,"
       },
       "label": {
         "value": "{font.size.12}",
         "type": "dimension",
-        "description": "Use for font size of the text elements that serve as labels, providing clear and concise information such as form label, input field label",
         "parent": "sys/Light",
-        "oldValue": "{font.size.12}"
+        "description": "Use for font size of the text elements that serve as labels, providing clear and concise information such as form label, input field label"
       },
       "caption1": {
         "value": "{font.size.14}",
         "type": "dimension",
-        "description": "Use for font size of the text elements that are in all capital letters, providing primary captions with clear and subtle emphasis such as tags",
         "parent": "sys/Light",
-        "oldValue": "{font.size.14}"
+        "description": "Use for font size of the text elements that are in all capital letters, providing primary captions with clear and subtle emphasis such as tags"
       },
       "caption2": {
         "value": "{font.size.8}",
         "type": "dimension",
-        "description": "Use for font size of the text elements that are in all capital letters, providing secondary captions with a more subtle level of emphasis such as tags",
         "parent": "sys/Light",
-        "oldValue": "{font.size.8}"
+        "description": "Use for font size of the text elements that are in all capital letters, providing secondary captions with a more subtle level of emphasis such as tags"
       },
       "button": {
         "sm": {
           "value": "{font.size.12}",
           "type": "dimension",
-          "description": "Use for font size of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.size.12}"
+          "description": "Use for font size of the text elements of the button component"
         },
         "md": {
           "value": "{font.size.14}",
           "type": "dimension",
-          "description": "Use for font size of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.size.14}"
+          "description": "Use for font size of the text elements of the button component"
         }
       }
     },
@@ -1123,116 +1086,100 @@
       "heading1": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"heading1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"heading1\""
       },
       "heading2": {
         "value": "{font.weight.semibold}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"heading2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.semibold}"
+        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"heading2\""
       },
       "heading3": {
         "value": "{font.weight.medium}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading3\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.medium}"
+        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading3\""
       },
       "heading4": {
         "value": "{font.weight.semibold}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"heading4\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.semibold}"
+        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"heading4\""
       },
       "heading5": {
         "value": "{font.weight.medium}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading5\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.medium}"
+        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading5\""
       },
       "heading6": {
         "value": "{font.weight.medium}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading6\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.medium}"
+        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for text with font size \"heading6\""
       },
       "body1": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body1\""
       },
       "body2": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body2\""
       },
       "body3": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body3\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body3\""
       },
       "body4": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body4\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body4\""
       },
       "body5": {
         "value": "{font.weight.regular}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body5\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.regular}"
+        "description": "Use for font weight of the text elements that require regular emphasis, specifically apply for text with font size \"body5\""
       },
       "button": {
         "sm": {
           "value": "{font.weight.medium}",
           "type": "dimension",
-          "description": "Use for font weight of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.weight.medium}"
+          "description": "Use for font weight of the text elements of the button component"
         },
         "md": {
           "value": "{font.weight.medium}",
           "type": "dimension",
-          "description": "Use for font weight of the text elements of the button component",
           "parent": "sys/Light",
-          "oldValue": "{font.weight.medium}"
+          "description": "Use for font weight of the text elements of the button component"
         }
       },
       "label": {
         "value": "{font.weight.medium}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for label text",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.medium}"
+        "description": "Use for font weight of the text elements that require subtle emphasis, specifically apply for label text"
       },
       "caption1": {
         "value": "{font.weight.semibold}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"caption1\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.semibold}"
+        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"caption1\""
       },
       "caption2": {
         "value": "{font.weight.semibold}",
         "type": "dimension",
-        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"captioln2\"",
         "parent": "sys/Light",
-        "oldValue": "{font.weight.semibold}"
+        "description": "Use for font weight of the text elements that require moderate level of emphasis, specifically apply for text with font size \"captioln2\""
       }
     }
   }
