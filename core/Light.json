@@ -930,6 +930,14 @@
       "type": "dimension",
       "description": "",
       "parent": "core/Light"
+    },
+    "negative-4": {
+      "value": "-4px",
+      "type": "dimension"
+    },
+    "negative-8": {
+      "value": "-8px",
+      "type": "dimension"
     }
   },
   "border": {
